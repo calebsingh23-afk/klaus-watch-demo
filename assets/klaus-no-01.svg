@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-labelledby="watch-title">
+  <title id="watch-title">Klaus No. 01 concept watch</title>
+  <defs>
+    <linearGradient id="steel" x2=".87" y2="1">
+      <stop stop-color="#606966"/><stop offset=".18" stop-color="#b9bcb4"/><stop offset=".32" stop-color="#787e79"/><stop offset=".54" stop-color="#d0d1c9"/><stop offset=".75" stop-color="#656b67"/><stop offset="1" stop-color="#d5d3c6"/>
+    </linearGradient>
+    <linearGradient id="bevel" x1=".13" x2=".88" y2="1">
+      <stop stop-color="#d9dbd2"/><stop offset=".22" stop-color="#333936"/><stop offset=".45" stop-color="#c9c9bd"/><stop offset=".64" stop-color="#92988e"/><stop offset=".8" stop-color="#2b302e"/><stop offset="1" stop-color="#d6d6c9"/>
+    </linearGradient>
+    <linearGradient id="strap-tone" x2="1" y2="0">
+      <stop stop-color="#161918"/><stop offset=".12" stop-color="#383b36"/><stop offset=".47" stop-color="#252825"/><stop offset=".87" stop-color="#30332f"/><stop offset="1" stop-color="#111413"/>
+    </linearGradient>
+    <radialGradient id="dial-tone" cx=".36" cy=".26" r=".79">
+      <stop stop-color="#424743"/><stop offset=".6" stop-color="#272b29"/><stop offset="1" stop-color="#171a19"/>
+    </radialGradient>
+    <linearGradient id="hand-tone" x2="0" y2="1">
+      <stop stop-color="#e9e7da"/><stop offset=".49" stop-color="#c7c8be"/><stop offset=".52" stop-color="#6b716c"/><stop offset="1" stop-color="#a1a59b"/>
+    </linearGradient>
+    <pattern id="brushing" width="4" height="7" patternUnits="userSpaceOnUse">
+      <path d="M0 .5h4M0 4.5h4" stroke="#fff" opacity=".12"/>
+      <path d="M0 2.5h4M0 5.5h4" stroke="#111" opacity=".2"/>
+    </pattern>
+    <pattern id="grain" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M1 1h1m2 2h1M1 4h1" stroke="#cdd0bf" stroke-width=".5" opacity=".17"/>
+    </pattern>
+  </defs>
+  <g id="strap">
+    <path d="M215 274l12-204q1-20 20-20h146q19 0 20 20l12 204zm0 252h210l-12 191q-2 27-29 31H256q-27-4-29-31z" fill="url(#strap-tone)" stroke="#111513" stroke-width="3"/>
+    <path d="M236 248l11-172m157 172-11-172M236 553l12 159m156-159-12 159" fill="none" stroke="#7e7e71" stroke-width="1.3" stroke-dasharray="3 5"/>
+    <path d="M251 61h138M251 731q69 12 138 0" fill="none" stroke="#6c7067" opacity=".4"/>
+  </g>
+  <g id="case">
+    <path d="M194 285l16-65q5-12 19-12h22l-5 76zm200-1-5-76h22q14 0 19 12l16 65zM194 515l16 65q5 12 19 12h22l-5-76zm200 1-5 76h22q14 0 19-12l16-65z" fill="url(#steel)" stroke="#7c8179" stroke-width="2"/>
+    <rect x="493" y="384" width="27" height="32" rx="6" fill="url(#bevel)"/>
+    <rect x="505" y="373" width="27" height="54" rx="7" fill="url(#steel)" stroke="#777e74"/>
+    <g stroke="#3b403c" stroke-width="1.25"><path d="M506 378h22"/><path d="M506 383h22"/><path d="M506 388h22"/><path d="M506 393h22"/><path d="M506 398h22"/><path d="M506 403h22"/><path d="M506 408h22"/><path d="M506 413h22"/><path d="M506 418h22"/><path d="M506 423h22"/></g>
+    <circle cx="320" cy="405" r="190" fill="#3e4540" stroke="#161918" stroke-width="3"/>
+    <circle cx="320" cy="400" r="189" fill="url(#steel)"/>
+    <circle cx="320" cy="400" r="187" fill="url(#brushing)" opacity=".55"/>
+    <circle cx="320" cy="400" r="174" fill="url(#bevel)"/>
+    <circle cx="320" cy="400" r="165" fill="#181c1a" stroke="#87897e" stroke-width="2"/>
+  </g>
+  <g id="dial">
+    <circle cx="320" cy="400" r="161" fill="url(#dial-tone)"/>
+    <circle cx="320" cy="400" r="160" fill="url(#grain)"/>
+    <circle cx="320" cy="400" r="153" fill="none" stroke="#abaea2" opacity=".34"/>
+    <g fill="none"><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(0 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(6 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(12 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(18 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(24 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(30 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(36 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(42 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(48 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(54 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(60 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(66 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(72 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(78 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(84 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(90 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(96 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(102 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(108 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(114 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(120 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(126 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(132 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(138 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(144 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(150 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(156 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(162 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(168 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(174 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(180 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(186 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(192 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(198 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(204 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(210 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(216 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(222 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(228 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(234 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(240 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(246 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(252 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(258 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(264 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(270 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(276 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(282 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(288 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(294 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(300 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(306 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(312 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(318 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(324 320 400)"/><path d="M320 244v5" stroke="#c0bdb4" transform="rotate(330 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(336 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(342 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(348 320 400)"/><path d="M320 245v2.5" stroke="#aaa79d" opacity=".65" transform="rotate(354 320 400)"/></g>
+    <g fill="none" stroke="#ddded3" stroke-width="3.7"><path d="M315 257v23m10-23v23" transform="rotate(0 320 400)"/><path d="M320 258v21" transform="rotate(30 320 400)"/><path d="M320 258v21" transform="rotate(60 320 400)"/><path d="M320 258v21" transform="rotate(90 320 400)"/><path d="M320 258v21" transform="rotate(120 320 400)"/><path d="M320 258v21" transform="rotate(150 320 400)"/><path d="M320 258v21" transform="rotate(180 320 400)"/><path d="M320 258v21" transform="rotate(210 320 400)"/><path d="M320 258v21" transform="rotate(240 320 400)"/><path d="M320 258v21" transform="rotate(270 320 400)"/><path d="M320 258v21" transform="rotate(300 320 400)"/><path d="M320 258v21" transform="rotate(330 320 400)"/></g>
+    <text x="322" y="335" fill="#efebe0" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="bold" letter-spacing="4">KLAUS</text>
+    <text x="320" y="484" fill="#c8c8bb" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">NO. 01</text>
+  </g>
+  <g id="hands">
+    <path d="M325 403l-75-31-9-10 14 2 74 33zM316 396l100-64 15-2-9 11-99 65z" fill="#101413" opacity=".72" transform="translate(1 4)"/>
+    <path d="M325 403l-75-31-9-10 14 2 74 33zM316 396l100-64 15-2-9 11-99 65z" fill="url(#hand-tone)" stroke="#d2d3c6" stroke-width=".55"/>
+    <path d="M336 383L230 496" stroke="#d4b27b" stroke-width="1.8"/>
+    <circle cx="320" cy="400" r="5.8" fill="#d4b27b" stroke="#2c2921" stroke-width="1.1"/>
+  </g>
+  <g id="highlights" fill="none">
+    <path d="M144 337a187 187 0 0 1 237-114" stroke="#f0eee3" stroke-width="1.5" opacity=".78"/>
+    <path d="M492 468a185 185 0 0 1-95 100" stroke="#ecebdd" stroke-width="1.5" opacity=".6"/>
+    <path d="M170 339a162 162 0 0 1 137-100" stroke="#eeeee6" opacity=".42"/>
+  </g>
+</svg>

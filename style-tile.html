@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klaus — Style tile</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .tile { max-width: 1020px; margin: auto; padding: 32px var(--gutter) 72px; }
+    .tile h1 { margin: 36px 0 24px; font-size: clamp(3rem, 8vw, 6rem); }
+    .tile h2 { font: bold 1.15rem var(--sans); letter-spacing: normal; margin: 38px 0 14px; }
+    .swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; }
+    .swatch { display: grid; align-content: end; min-height: 100px; padding: 12px; background: var(--paint); color: var(--text, var(--charcoal)); }
+    .swatches { background: #dedbd0; padding: 8px; }
+    .sample-title { font: 2.5rem/1 var(--serif); margin-bottom: 8px; }
+    .sample { padding: 22px; background: var(--panel); color: var(--ivory); }
+    .sample dl { margin: 0; }
+    .action-secondary, .tile nav a { display: inline-flex; min-height: 44px; align-items: center; }
+  </style>
+</head>
+<body>
+  <main class="tile">
+    <nav aria-label="Demo"><a href="index.html">← Back to Klaus No. 01</a></nav>
+    <h1>Klaus style tile</h1>
+    <span class="wordmark">KLAUS</span>
+    <h2>Palette</h2>
+    <div class="swatches">
+      <div class="swatch" style="--paint:var(--ivory)">Ivory · #F2EEE5</div>
+      <div class="swatch" style="--paint:var(--charcoal);--text:var(--ivory)">Charcoal · #191B1A</div>
+      <div class="swatch" style="--paint:var(--panel);--text:var(--ivory)">Slate · #292C2A</div>
+      <div class="swatch" style="--paint:var(--brass)">Brass · #D4B27B</div>
+    </div>
+    <h2>Typography</h2>
+    <p class="sample-title">Klaus No. 01</p>
+    <p>Georgia for display and wordmark. Arial for navigation and details.</p>
+    <h2>Actions</h2>
+    <a class="action" href="index.html#details">Explore No. 01 <span aria-hidden="true">↘</span></a>
+    <p><a class="action-secondary" href="index.html#details">View the details</a></p>
+    <h2>Product detail</h2>
+    <div class="sample"><dl><div><dt>Dial</dt><dd>Slender silver indices on a charcoal face.</dd></div></dl></div>
+  </main>
+</body>
+</html>
+
